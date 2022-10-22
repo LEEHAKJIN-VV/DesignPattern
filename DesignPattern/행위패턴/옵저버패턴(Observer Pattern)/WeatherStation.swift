@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  WeatherStation.swift
 //  DesignPattern
 //
-//  Created by 이학진 on 2022/10/12.
+//  Created by 이학진 on 2022/10/16.
 //
 
 import Foundation
@@ -19,5 +19,4 @@ weatherData.setMeasurements(temperature: 82, humidity: 70, pressure: 29.2)
 weatherData.setMeasurements(temperature: 78, humidity: 90, pressure: 29.2)
 
 weatherData.removeObserver(o: currentDisplay)
-
 

@@ -7,7 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28CB341028FBE08700F3B828 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB340F28FBE08700F3B828 /* Subject.swift */; };
+		28CB341228FBE11F00F3B828 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB341128FBE11F00F3B828 /* Observer.swift */; };
+		28CB341428FBE18300F3B828 /* DisplayElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB341328FBE18300F3B828 /* DisplayElement.swift */; };
+		28CB341628FBE1B200F3B828 /* WeatherData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB341528FBE1B200F3B828 /* WeatherData.swift */; };
+		28CB341828FBEAEA00F3B828 /* CurrentConditionDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB341728FBEAEA00F3B828 /* CurrentConditionDisplay.swift */; };
+		28CB341A28FBEE0C00F3B828 /* SimulatorDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB341928FBEE0C00F3B828 /* SimulatorDuck.swift */; };
+		28CB341C28FBEE3E00F3B828 /* WeatherStation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB341B28FBEE3E00F3B828 /* WeatherStation.swift */; };
+		28CB341E28FBEF9100F3B828 /* ForecastDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB341D28FBEF9100F3B828 /* ForecastDisplay.swift */; };
+		28CB342028FBF0EB00F3B828 /* StatisticsDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB341F28FBF0EB00F3B828 /* StatisticsDisplay.swift */; };
+		28CB342228FBF6B400F3B828 /* HeatIndexDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB342128FBF6B400F3B828 /* HeatIndexDisplay.swift */; };
 		28CBC63B28F6E0C3006933BC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC63A28F6E0C3006933BC /* main.swift */; };
+		28CBC64628F6EF7D006933BC /* Duck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC64528F6EF7D006933BC /* Duck.swift */; };
+		28CBC64828F6F004006933BC /* FlyBehaviorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC64728F6F004006933BC /* FlyBehaviorProtocol.swift */; };
+		28CBC64B28F6F1DE006933BC /* FlyWithWings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC64A28F6F1DE006933BC /* FlyWithWings.swift */; };
+		28CBC64D28F6F362006933BC /* FlyNoWay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC64C28F6F362006933BC /* FlyNoWay.swift */; };
+		28CBC65028F6F6C1006933BC /* QuackBehaviorProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC64F28F6F6C1006933BC /* QuackBehaviorProtocol.swift */; };
+		28CBC65228F6F6F2006933BC /* Quack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC65128F6F6F2006933BC /* Quack.swift */; };
+		28CBC65428F6F727006933BC /* MuteQuack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC65328F6F727006933BC /* MuteQuack.swift */; };
+		28CBC65628F6F75F006933BC /* Squeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC65528F6F75F006933BC /* Squeak.swift */; };
+		28CBC65928F6F7A5006933BC /* MiniDuckSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC65828F6F7A5006933BC /* MiniDuckSimulator.swift */; };
+		28CBC65B28F6F7DD006933BC /* MallardDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC65A28F6F7DD006933BC /* MallardDuck.swift */; };
+		28CBC65D28F7049D006933BC /* ModelDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC65C28F7049D006933BC /* ModelDuck.swift */; };
+		28CBC65F28F704FE006933BC /* FlyRocketPowered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC65E28F704FE006933BC /* FlyRocketPowered.swift */; };
+		28D5D92B2903E7E9002ADAE0 /* Diagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D5D92A2903E7E9002ADAE0 /* Diagram.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +46,31 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		28CB340F28FBE08700F3B828 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
+		28CB341128FBE11F00F3B828 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
+		28CB341328FBE18300F3B828 /* DisplayElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayElement.swift; sourceTree = "<group>"; };
+		28CB341528FBE1B200F3B828 /* WeatherData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherData.swift; sourceTree = "<group>"; };
+		28CB341728FBEAEA00F3B828 /* CurrentConditionDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentConditionDisplay.swift; sourceTree = "<group>"; };
+		28CB341928FBEE0C00F3B828 /* SimulatorDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimulatorDuck.swift; sourceTree = "<group>"; };
+		28CB341B28FBEE3E00F3B828 /* WeatherStation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherStation.swift; sourceTree = "<group>"; };
+		28CB341D28FBEF9100F3B828 /* ForecastDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForecastDisplay.swift; sourceTree = "<group>"; };
+		28CB341F28FBF0EB00F3B828 /* StatisticsDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsDisplay.swift; sourceTree = "<group>"; };
+		28CB342128FBF6B400F3B828 /* HeatIndexDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeatIndexDisplay.swift; sourceTree = "<group>"; };
 		28CBC63728F6E0C3006933BC /* DesignPattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DesignPattern; sourceTree = BUILT_PRODUCTS_DIR; };
 		28CBC63A28F6E0C3006933BC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		28CBC64528F6EF7D006933BC /* Duck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Duck.swift; sourceTree = "<group>"; };
+		28CBC64728F6F004006933BC /* FlyBehaviorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyBehaviorProtocol.swift; sourceTree = "<group>"; };
+		28CBC64A28F6F1DE006933BC /* FlyWithWings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyWithWings.swift; sourceTree = "<group>"; };
+		28CBC64C28F6F362006933BC /* FlyNoWay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyNoWay.swift; sourceTree = "<group>"; };
+		28CBC64F28F6F6C1006933BC /* QuackBehaviorProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuackBehaviorProtocol.swift; sourceTree = "<group>"; };
+		28CBC65128F6F6F2006933BC /* Quack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quack.swift; sourceTree = "<group>"; };
+		28CBC65328F6F727006933BC /* MuteQuack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuteQuack.swift; sourceTree = "<group>"; };
+		28CBC65528F6F75F006933BC /* Squeak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squeak.swift; sourceTree = "<group>"; };
+		28CBC65828F6F7A5006933BC /* MiniDuckSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniDuckSimulator.swift; sourceTree = "<group>"; };
+		28CBC65A28F6F7DD006933BC /* MallardDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallardDuck.swift; sourceTree = "<group>"; };
+		28CBC65C28F7049D006933BC /* ModelDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDuck.swift; sourceTree = "<group>"; };
+		28CBC65E28F704FE006933BC /* FlyRocketPowered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyRocketPowered.swift; sourceTree = "<group>"; };
+		28D5D92A2903E7E9002ADAE0 /* Diagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagram.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +84,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28CB340E28FBE06200F3B828 /* 옵저버패턴(Observer Pattern) */ = {
+			isa = PBXGroup;
+			children = (
+				28CB340F28FBE08700F3B828 /* Subject.swift */,
+				28CB341128FBE11F00F3B828 /* Observer.swift */,
+				28CB341328FBE18300F3B828 /* DisplayElement.swift */,
+				28CB341528FBE1B200F3B828 /* WeatherData.swift */,
+				28CB341728FBEAEA00F3B828 /* CurrentConditionDisplay.swift */,
+				28CB341B28FBEE3E00F3B828 /* WeatherStation.swift */,
+				28CB341D28FBEF9100F3B828 /* ForecastDisplay.swift */,
+				28CB341F28FBF0EB00F3B828 /* StatisticsDisplay.swift */,
+				28CB342128FBF6B400F3B828 /* HeatIndexDisplay.swift */,
+				28D5D92A2903E7E9002ADAE0 /* Diagram.swift */,
+			);
+			name = "옵저버패턴(Observer Pattern)";
+			path = "옵저버패턴(Observer Pattern)";
+			sourceTree = "<group>";
+		};
 		28CBC62E28F6E0C3006933BC = {
 			isa = PBXGroup;
 			children = (
@@ -57,9 +121,83 @@
 		28CBC63928F6E0C3006933BC /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
+				28CBC64328F6EF52006933BC /* 구조패턴 */,
+				28CBC64428F6EF5B006933BC /* 생성패턴 */,
+				28CBC64228F6EF40006933BC /* 행위패턴 */,
 				28CBC63A28F6E0C3006933BC /* main.swift */,
 			);
 			path = DesignPattern;
+			sourceTree = "<group>";
+		};
+		28CBC64128F6EB9C006933BC /* 전략패턴(Strategy Pattern) */ = {
+			isa = PBXGroup;
+			children = (
+				28CBC65728F6F78B006933BC /* Duck */,
+				28CBC64E28F6F6A0006933BC /* QuackBehavior */,
+				28CBC64928F6F039006933BC /* FlyBehavior */,
+				28CB341928FBEE0C00F3B828 /* SimulatorDuck.swift */,
+			);
+			name = "전략패턴(Strategy Pattern)";
+			path = "전략패턴(Strategy Pattern)";
+			sourceTree = "<group>";
+		};
+		28CBC64228F6EF40006933BC /* 행위패턴 */ = {
+			isa = PBXGroup;
+			children = (
+				28CB340E28FBE06200F3B828 /* 옵저버패턴(Observer Pattern) */,
+				28CBC64128F6EB9C006933BC /* 전략패턴(Strategy Pattern) */,
+			);
+			name = "행위패턴";
+			path = "행위패턴";
+			sourceTree = "<group>";
+		};
+		28CBC64328F6EF52006933BC /* 구조패턴 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "구조패턴";
+			path = "구조패턴";
+			sourceTree = "<group>";
+		};
+		28CBC64428F6EF5B006933BC /* 생성패턴 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "생성패턴";
+			path = "생성패턴";
+			sourceTree = "<group>";
+		};
+		28CBC64928F6F039006933BC /* FlyBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				28CBC64728F6F004006933BC /* FlyBehaviorProtocol.swift */,
+				28CBC64A28F6F1DE006933BC /* FlyWithWings.swift */,
+				28CBC64C28F6F362006933BC /* FlyNoWay.swift */,
+				28CBC65E28F704FE006933BC /* FlyRocketPowered.swift */,
+			);
+			path = FlyBehavior;
+			sourceTree = "<group>";
+		};
+		28CBC64E28F6F6A0006933BC /* QuackBehavior */ = {
+			isa = PBXGroup;
+			children = (
+				28CBC64F28F6F6C1006933BC /* QuackBehaviorProtocol.swift */,
+				28CBC65128F6F6F2006933BC /* Quack.swift */,
+				28CBC65328F6F727006933BC /* MuteQuack.swift */,
+				28CBC65528F6F75F006933BC /* Squeak.swift */,
+			);
+			path = QuackBehavior;
+			sourceTree = "<group>";
+		};
+		28CBC65728F6F78B006933BC /* Duck */ = {
+			isa = PBXGroup;
+			children = (
+				28CBC64528F6EF7D006933BC /* Duck.swift */,
+				28CBC65828F6F7A5006933BC /* MiniDuckSimulator.swift */,
+				28CBC65A28F6F7DD006933BC /* MallardDuck.swift */,
+				28CBC65C28F7049D006933BC /* ModelDuck.swift */,
+			);
+			path = Duck;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -120,7 +258,30 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28CBC65928F6F7A5006933BC /* MiniDuckSimulator.swift in Sources */,
+				28CB341228FBE11F00F3B828 /* Observer.swift in Sources */,
+				28CBC64B28F6F1DE006933BC /* FlyWithWings.swift in Sources */,
+				28CB342028FBF0EB00F3B828 /* StatisticsDisplay.swift in Sources */,
+				28CB341028FBE08700F3B828 /* Subject.swift in Sources */,
+				28D5D92B2903E7E9002ADAE0 /* Diagram.swift in Sources */,
+				28CBC65228F6F6F2006933BC /* Quack.swift in Sources */,
+				28CBC65428F6F727006933BC /* MuteQuack.swift in Sources */,
+				28CB341828FBEAEA00F3B828 /* CurrentConditionDisplay.swift in Sources */,
+				28CBC65F28F704FE006933BC /* FlyRocketPowered.swift in Sources */,
+				28CBC65B28F6F7DD006933BC /* MallardDuck.swift in Sources */,
+				28CB341C28FBEE3E00F3B828 /* WeatherStation.swift in Sources */,
 				28CBC63B28F6E0C3006933BC /* main.swift in Sources */,
+				28CB341A28FBEE0C00F3B828 /* SimulatorDuck.swift in Sources */,
+				28CBC65D28F7049D006933BC /* ModelDuck.swift in Sources */,
+				28CBC64828F6F004006933BC /* FlyBehaviorProtocol.swift in Sources */,
+				28CBC64628F6EF7D006933BC /* Duck.swift in Sources */,
+				28CB341E28FBEF9100F3B828 /* ForecastDisplay.swift in Sources */,
+				28CBC65628F6F75F006933BC /* Squeak.swift in Sources */,
+				28CB342228FBF6B400F3B828 /* HeatIndexDisplay.swift in Sources */,
+				28CB341628FBE1B200F3B828 /* WeatherData.swift in Sources */,
+				28CBC64D28F6F362006933BC /* FlyNoWay.swift in Sources */,
+				28CBC65028F6F6C1006933BC /* QuackBehaviorProtocol.swift in Sources */,
+				28CB341428FBE18300F3B828 /* DisplayElement.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

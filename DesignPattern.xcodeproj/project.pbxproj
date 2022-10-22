@@ -30,7 +30,6 @@
 		28CBC65B28F6F7DD006933BC /* MallardDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC65A28F6F7DD006933BC /* MallardDuck.swift */; };
 		28CBC65D28F7049D006933BC /* ModelDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC65C28F7049D006933BC /* ModelDuck.swift */; };
 		28CBC65F28F704FE006933BC /* FlyRocketPowered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC65E28F704FE006933BC /* FlyRocketPowered.swift */; };
-		28D5D92B2903E7E9002ADAE0 /* Diagram.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28D5D92A2903E7E9002ADAE0 /* Diagram.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -70,7 +69,6 @@
 		28CBC65A28F6F7DD006933BC /* MallardDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallardDuck.swift; sourceTree = "<group>"; };
 		28CBC65C28F7049D006933BC /* ModelDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDuck.swift; sourceTree = "<group>"; };
 		28CBC65E28F704FE006933BC /* FlyRocketPowered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyRocketPowered.swift; sourceTree = "<group>"; };
-		28D5D92A2903E7E9002ADAE0 /* Diagram.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Diagram.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,16 +85,12 @@
 		28CB340E28FBE06200F3B828 /* 옵저버패턴(Observer Pattern) */ = {
 			isa = PBXGroup;
 			children = (
-				28CB340F28FBE08700F3B828 /* Subject.swift */,
-				28CB341128FBE11F00F3B828 /* Observer.swift */,
+				28D5D92F29040AA9002ADAE0 /* ConcreteSubject */,
+				28D5D92E29040AA1002ADAE0 /* ConcreteObserver */,
+				28D5D92D29040A76002ADAE0 /* Observer */,
+				28D5D92C29040A6A002ADAE0 /* Subject */,
 				28CB341328FBE18300F3B828 /* DisplayElement.swift */,
-				28CB341528FBE1B200F3B828 /* WeatherData.swift */,
-				28CB341728FBEAEA00F3B828 /* CurrentConditionDisplay.swift */,
 				28CB341B28FBEE3E00F3B828 /* WeatherStation.swift */,
-				28CB341D28FBEF9100F3B828 /* ForecastDisplay.swift */,
-				28CB341F28FBF0EB00F3B828 /* StatisticsDisplay.swift */,
-				28CB342128FBF6B400F3B828 /* HeatIndexDisplay.swift */,
-				28D5D92A2903E7E9002ADAE0 /* Diagram.swift */,
 			);
 			name = "옵저버패턴(Observer Pattern)";
 			path = "옵저버패턴(Observer Pattern)";
@@ -200,6 +194,41 @@
 			path = Duck;
 			sourceTree = "<group>";
 		};
+		28D5D92C29040A6A002ADAE0 /* Subject */ = {
+			isa = PBXGroup;
+			children = (
+				28CB340F28FBE08700F3B828 /* Subject.swift */,
+			);
+			path = Subject;
+			sourceTree = "<group>";
+		};
+		28D5D92D29040A76002ADAE0 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				28CB341128FBE11F00F3B828 /* Observer.swift */,
+			);
+			path = Observer;
+			sourceTree = "<group>";
+		};
+		28D5D92E29040AA1002ADAE0 /* ConcreteObserver */ = {
+			isa = PBXGroup;
+			children = (
+				28CB341D28FBEF9100F3B828 /* ForecastDisplay.swift */,
+				28CB341F28FBF0EB00F3B828 /* StatisticsDisplay.swift */,
+				28CB342128FBF6B400F3B828 /* HeatIndexDisplay.swift */,
+				28CB341728FBEAEA00F3B828 /* CurrentConditionDisplay.swift */,
+			);
+			path = ConcreteObserver;
+			sourceTree = "<group>";
+		};
+		28D5D92F29040AA9002ADAE0 /* ConcreteSubject */ = {
+			isa = PBXGroup;
+			children = (
+				28CB341528FBE1B200F3B828 /* WeatherData.swift */,
+			);
+			path = ConcreteSubject;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -263,7 +292,6 @@
 				28CBC64B28F6F1DE006933BC /* FlyWithWings.swift in Sources */,
 				28CB342028FBF0EB00F3B828 /* StatisticsDisplay.swift in Sources */,
 				28CB341028FBE08700F3B828 /* Subject.swift in Sources */,
-				28D5D92B2903E7E9002ADAE0 /* Diagram.swift in Sources */,
 				28CBC65228F6F6F2006933BC /* Quack.swift in Sources */,
 				28CBC65428F6F727006933BC /* MuteQuack.swift in Sources */,
 				28CB341828FBEAEA00F3B828 /* CurrentConditionDisplay.swift in Sources */,

@@ -13,5 +13,4 @@ class FlyNoWay: FlyBehavior {
     public func fly() {
         print("저는 못날아요")
     }
-    
 }

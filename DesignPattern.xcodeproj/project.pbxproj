@@ -26,7 +26,6 @@
 		28CBC65228F6F6F2006933BC /* Quack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC65128F6F6F2006933BC /* Quack.swift */; };
 		28CBC65428F6F727006933BC /* MuteQuack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC65328F6F727006933BC /* MuteQuack.swift */; };
 		28CBC65628F6F75F006933BC /* Squeak.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC65528F6F75F006933BC /* Squeak.swift */; };
-		28CBC65928F6F7A5006933BC /* MiniDuckSimulator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC65828F6F7A5006933BC /* MiniDuckSimulator.swift */; };
 		28CBC65B28F6F7DD006933BC /* MallardDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC65A28F6F7DD006933BC /* MallardDuck.swift */; };
 		28CBC65D28F7049D006933BC /* ModelDuck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC65C28F7049D006933BC /* ModelDuck.swift */; };
 		28CBC65F28F704FE006933BC /* FlyRocketPowered.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CBC65E28F704FE006933BC /* FlyRocketPowered.swift */; };
@@ -65,7 +64,6 @@
 		28CBC65128F6F6F2006933BC /* Quack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quack.swift; sourceTree = "<group>"; };
 		28CBC65328F6F727006933BC /* MuteQuack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuteQuack.swift; sourceTree = "<group>"; };
 		28CBC65528F6F75F006933BC /* Squeak.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squeak.swift; sourceTree = "<group>"; };
-		28CBC65828F6F7A5006933BC /* MiniDuckSimulator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MiniDuckSimulator.swift; sourceTree = "<group>"; };
 		28CBC65A28F6F7DD006933BC /* MallardDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MallardDuck.swift; sourceTree = "<group>"; };
 		28CBC65C28F7049D006933BC /* ModelDuck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelDuck.swift; sourceTree = "<group>"; };
 		28CBC65E28F704FE006933BC /* FlyRocketPowered.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyRocketPowered.swift; sourceTree = "<group>"; };
@@ -187,7 +185,6 @@
 			isa = PBXGroup;
 			children = (
 				28CBC64528F6EF7D006933BC /* Duck.swift */,
-				28CBC65828F6F7A5006933BC /* MiniDuckSimulator.swift */,
 				28CBC65A28F6F7DD006933BC /* MallardDuck.swift */,
 				28CBC65C28F7049D006933BC /* ModelDuck.swift */,
 			);
@@ -287,7 +284,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28CBC65928F6F7A5006933BC /* MiniDuckSimulator.swift in Sources */,
 				28CB341228FBE11F00F3B828 /* Observer.swift in Sources */,
 				28CBC64B28F6F1DE006933BC /* FlyWithWings.swift in Sources */,
 				28CB342028FBF0EB00F3B828 /* StatisticsDisplay.swift in Sources */,

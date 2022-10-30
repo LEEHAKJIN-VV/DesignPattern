@@ -7,12 +7,12 @@
 
 //import Foundation
 //
-var mallard: Duck = MallardDuck()
-
-mallard.performQuack()
-mallard.performFly()
-
-var model: Duck = ModelDuck()
-model.performFly()
-model.setFlyBehavior(fb: FlyRocketPowered())
-model.performFly()
+//var mallard: Duck = MallardDuck()
+//
+//mallard.performQuack()
+//mallard.performFly()
+//
+//var model: Duck = ModelDuck()
+//model.performFly()
+//model.setFlyBehavior(fb: FlyRocketPowered())
+//model.performFly()

@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28471FA7290E9FB5005D8683 /* Beverage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28471FA6290E9FB5005D8683 /* Beverage.swift */; };
+		28471FA9290EA005005D8683 /* BeverageDecorator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28471FA8290EA005005D8683 /* BeverageDecorator.swift */; };
+		28471FAB290EA058005D8683 /* Moca.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28471FAA290EA058005D8683 /* Moca.swift */; };
+		28471FAD290EA0A9005D8683 /* Milk.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28471FAC290EA0A9005D8683 /* Milk.swift */; };
+		28471FAF290EA110005D8683 /* Espresso.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28471FAE290EA110005D8683 /* Espresso.swift */; };
+		28471FB1290EA147005D8683 /* HouseBlend.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28471FB0290EA147005D8683 /* HouseBlend.swift */; };
+		28471FB3290EA17B005D8683 /* Decaf.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28471FB2290EA17B005D8683 /* Decaf.swift */; };
+		28471FB5290EA197005D8683 /* DarkRoast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28471FB4290EA197005D8683 /* DarkRoast.swift */; };
+		28471FB7290EA1B6005D8683 /* Soy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28471FB6290EA1B6005D8683 /* Soy.swift */; };
+		28471FB9290EA1E6005D8683 /* Whip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28471FB8290EA1E6005D8683 /* Whip.swift */; };
+		28471FBB290EA22E005D8683 /* StartbuzzCoffee.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28471FBA290EA22E005D8683 /* StartbuzzCoffee.swift */; };
 		28CB341028FBE08700F3B828 /* Subject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB340F28FBE08700F3B828 /* Subject.swift */; };
 		28CB341228FBE11F00F3B828 /* Observer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB341128FBE11F00F3B828 /* Observer.swift */; };
 		28CB341428FBE18300F3B828 /* DisplayElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28CB341328FBE18300F3B828 /* DisplayElement.swift */; };
@@ -44,6 +55,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		28471FA6290E9FB5005D8683 /* Beverage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Beverage.swift; sourceTree = "<group>"; };
+		28471FA8290EA005005D8683 /* BeverageDecorator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeverageDecorator.swift; sourceTree = "<group>"; };
+		28471FAA290EA058005D8683 /* Moca.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Moca.swift; sourceTree = "<group>"; };
+		28471FAC290EA0A9005D8683 /* Milk.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Milk.swift; sourceTree = "<group>"; };
+		28471FAE290EA110005D8683 /* Espresso.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Espresso.swift; sourceTree = "<group>"; };
+		28471FB0290EA147005D8683 /* HouseBlend.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HouseBlend.swift; sourceTree = "<group>"; };
+		28471FB2290EA17B005D8683 /* Decaf.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Decaf.swift; sourceTree = "<group>"; };
+		28471FB4290EA197005D8683 /* DarkRoast.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkRoast.swift; sourceTree = "<group>"; };
+		28471FB6290EA1B6005D8683 /* Soy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Soy.swift; sourceTree = "<group>"; };
+		28471FB8290EA1E6005D8683 /* Whip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Whip.swift; sourceTree = "<group>"; };
+		28471FBA290EA22E005D8683 /* StartbuzzCoffee.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartbuzzCoffee.swift; sourceTree = "<group>"; };
 		28CB340F28FBE08700F3B828 /* Subject.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subject.swift; sourceTree = "<group>"; };
 		28CB341128FBE11F00F3B828 /* Observer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observer.swift; sourceTree = "<group>"; };
 		28CB341328FBE18300F3B828 /* DisplayElement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayElement.swift; sourceTree = "<group>"; };
@@ -80,6 +102,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28471FA4290E9F98005D8683 /* 구조패턴 */ = {
+			isa = PBXGroup;
+			children = (
+				28471FA5290E9F9D005D8683 /* 데코레이터패턴(Decorator Pattern) */,
+			);
+			name = "구조패턴";
+			path = "구조패턴";
+			sourceTree = "<group>";
+		};
+		28471FA5290E9F9D005D8683 /* 데코레이터패턴(Decorator Pattern) */ = {
+			isa = PBXGroup;
+			children = (
+				28471FA6290E9FB5005D8683 /* Beverage.swift */,
+				28471FA8290EA005005D8683 /* BeverageDecorator.swift */,
+				28471FAA290EA058005D8683 /* Moca.swift */,
+				28471FAC290EA0A9005D8683 /* Milk.swift */,
+				28471FB6290EA1B6005D8683 /* Soy.swift */,
+				28471FB8290EA1E6005D8683 /* Whip.swift */,
+				28471FAE290EA110005D8683 /* Espresso.swift */,
+				28471FB0290EA147005D8683 /* HouseBlend.swift */,
+				28471FB2290EA17B005D8683 /* Decaf.swift */,
+				28471FB4290EA197005D8683 /* DarkRoast.swift */,
+				28471FBA290EA22E005D8683 /* StartbuzzCoffee.swift */,
+			);
+			name = "데코레이터패턴(Decorator Pattern)";
+			path = "데코레이터패턴(Decorator Pattern)";
+			sourceTree = "<group>";
+		};
 		28CB340E28FBE06200F3B828 /* 옵저버패턴(Observer Pattern) */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,7 +163,7 @@
 		28CBC63928F6E0C3006933BC /* DesignPattern */ = {
 			isa = PBXGroup;
 			children = (
-				28CBC64328F6EF52006933BC /* 구조패턴 */,
+				28471FA4290E9F98005D8683 /* 구조패턴 */,
 				28CBC64428F6EF5B006933BC /* 생성패턴 */,
 				28CBC64228F6EF40006933BC /* 행위패턴 */,
 				28CBC63A28F6E0C3006933BC /* main.swift */,
@@ -141,14 +191,6 @@
 			);
 			name = "행위패턴";
 			path = "행위패턴";
-			sourceTree = "<group>";
-		};
-		28CBC64328F6EF52006933BC /* 구조패턴 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = "구조패턴";
-			path = "구조패턴";
 			sourceTree = "<group>";
 		};
 		28CBC64428F6EF5B006933BC /* 생성패턴 */ = {
@@ -286,26 +328,37 @@
 			files = (
 				28CB341228FBE11F00F3B828 /* Observer.swift in Sources */,
 				28CBC64B28F6F1DE006933BC /* FlyWithWings.swift in Sources */,
+				28471FA7290E9FB5005D8683 /* Beverage.swift in Sources */,
 				28CB342028FBF0EB00F3B828 /* StatisticsDisplay.swift in Sources */,
+				28471FB1290EA147005D8683 /* HouseBlend.swift in Sources */,
 				28CB341028FBE08700F3B828 /* Subject.swift in Sources */,
 				28CBC65228F6F6F2006933BC /* Quack.swift in Sources */,
+				28471FAB290EA058005D8683 /* Moca.swift in Sources */,
 				28CBC65428F6F727006933BC /* MuteQuack.swift in Sources */,
 				28CB341828FBEAEA00F3B828 /* CurrentConditionDisplay.swift in Sources */,
 				28CBC65F28F704FE006933BC /* FlyRocketPowered.swift in Sources */,
 				28CBC65B28F6F7DD006933BC /* MallardDuck.swift in Sources */,
 				28CB341C28FBEE3E00F3B828 /* WeatherStation.swift in Sources */,
+				28471FBB290EA22E005D8683 /* StartbuzzCoffee.swift in Sources */,
 				28CBC63B28F6E0C3006933BC /* main.swift in Sources */,
 				28CB341A28FBEE0C00F3B828 /* SimulatorDuck.swift in Sources */,
 				28CBC65D28F7049D006933BC /* ModelDuck.swift in Sources */,
+				28471FA9290EA005005D8683 /* BeverageDecorator.swift in Sources */,
+				28471FB5290EA197005D8683 /* DarkRoast.swift in Sources */,
 				28CBC64828F6F004006933BC /* FlyBehaviorProtocol.swift in Sources */,
+				28471FB7290EA1B6005D8683 /* Soy.swift in Sources */,
 				28CBC64628F6EF7D006933BC /* Duck.swift in Sources */,
 				28CB341E28FBEF9100F3B828 /* ForecastDisplay.swift in Sources */,
 				28CBC65628F6F75F006933BC /* Squeak.swift in Sources */,
+				28471FAD290EA0A9005D8683 /* Milk.swift in Sources */,
 				28CB342228FBF6B400F3B828 /* HeatIndexDisplay.swift in Sources */,
 				28CB341628FBE1B200F3B828 /* WeatherData.swift in Sources */,
+				28471FB3290EA17B005D8683 /* Decaf.swift in Sources */,
 				28CBC64D28F6F362006933BC /* FlyNoWay.swift in Sources */,
 				28CBC65028F6F6C1006933BC /* QuackBehaviorProtocol.swift in Sources */,
+				28471FB9290EA1E6005D8683 /* Whip.swift in Sources */,
 				28CB341428FBE18300F3B828 /* DisplayElement.swift in Sources */,
+				28471FAF290EA110005D8683 /* Espresso.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

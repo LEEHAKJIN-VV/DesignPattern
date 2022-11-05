@@ -15,7 +15,7 @@
     - 구성요소(객체)를 장식할 프로토콜
     - 각 데코레이터 안에는 구성 요소의 레퍼런스를 포함한 인스턴스 변수가 존재함
     - 데코레이터는 자신이 장식할 구성 요소와 같은 인터페이스를 구현함
-    - Moca, Milk, Soy, Whip
+    - BeverageDecorator
 - ConcreteComponent
     - 구성요소를 상속한 클래스
     - 구성요소에 새로운 행동을 동적으로 추가함
@@ -23,6 +23,7 @@
 - ConcreteDecorator
     - Decorator를 구현한 클래스
     - 데코레이터가 장식하고 있는 Component 타입의 변수가 존재
+    - Moca, Milk, Soy, Whip
 
 ## 디자인 원칙
 - 클래스는 확장에 열려 있어야 하지만 변경에는 닫혀 있어야 한다. (OCP: 개방-폐쇄 원칙)
